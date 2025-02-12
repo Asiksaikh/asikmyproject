@@ -1,18 +1,72 @@
-div{
-    background-color: #a62020;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+/* General Styles */
+body {
     font-family: Arial, sans-serif;
-    color: #1b931f;
+    background-color: #13a568;
+    margin: 0;
+    padding: 0;
 }
-p{
-    color: #a62020;
+
+/* Container */
+.AD {
+    max-width: 800px;
+    background: rgb(137, 122, 155);
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
     text-align: center;
-    background-color: aquamarine;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
 }
-body{
-    background-color: beige;
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+header h1 {
+    margin: 10px 0;
+    color: #333;
+}
+header p {
+    font-style: italic;
+    color: #777;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+/* Skills */
+.AD1 ul {
+    list-style: none;
+    padding: 0;background-color: aqua;
+    color: rebeccapurple;
+}
+
+.AD1 ul li {
+    background: #c47979;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #ddd;
+    color: #701313;
 }
