@@ -1,0 +1,18 @@
+div{
+    background-color: #a62020;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #1b931f;
+}
+p{
+    color: #a62020;
+    text-align: center;
+    background-color: aquamarine;
+}
+body{
+    background-color: beige;
+}
